@@ -1,0 +1,372 @@
+\documentclass[3pt]{article}
+%\documentclass[unicode]{moderncv}
+\usepackage{graphicx}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[export]{adjust box}
+\usepackage{bbding}
+%\usepackage{moderncv}
+\usepackage{hyperref}
+%\usepackage[usenames]{color}
+\usepackage[
+top    = 2.50cm,
+bottom = 2.50cm,
+left   = 1.30cm,
+right  = 1.50cm]{geometry}
+
+\leftmargin=0.55in
+\oddsidemargin=-0.15in
+\textwidth=6.8in
+\topmargin=-0.8in
+\textheight=10.60in
+
+\raggedright
+
+\pagenumbering{arabic}
+\pagestyle{empty}
+
+\def\bull{\vrule height 0.8ex width .9ex depth -.1ex }
+% DEFINITIONS FOR RESUME
+
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item[]}{\end{list}
+}
+
+\newcommand{\lineover}{
+	\begin{changemargin}{-0.05in}{-0.05in}
+		\vspace*{-8pt}
+		\hrulefill \\
+		\vspace*{-2pt}
+	\end{changemargin}
+}
+
+\newcommand{\header}[1]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		{\Large \scshape{#1}}\\
+  	\lineover
+	\end{changemargin}
+}
+
+\newcommand{\contact}[4]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\begin{center}
+			{\Large \scshape {#1}}\\ \smallskip
+			{#2}\\ \smallskip
+			{#3}\\ \smallskip
+			{#4}\smallskip
+		\end{center}
+	\end{changemargin}
+}
+
+\newenvironment{body} {
+	\vspace*{-16pt}
+	\begin{changemargin}{-0.25in}{-0.5in}
+  }	
+	{\end{changemargin}
+}	
+
+\newcommand{\school}[4]{
+	\textbf{#1} \hfill \emph{#2\\}
+	#3\\
+	#4\\
+}
+
+% END RESUME DEFINITIONS
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Name
+%\contact{\textbf{Shijie(Freeman) Zhang}}{ \includegraphics[scale=0.10]{home.png}\hspace{3pt}\textbf{226 Homewood Terrace, Baltimore, MD 21218} \hfill \href{https://github.com/FreemanZhang} {$\begin{array}{l} \includegraphics[scale=0.035]{GitHub_Logo.png}\end{array} $ \textbf{https://github.com/FreemanZhang} \hspace{0.5pt}}}
+%{\includegraphics[scale=0.020]{email.png}  \hspace{0.35pt} \textbf{ShijieZhang@jhu.edu} \hspace{35pt} \includegraphics[scale=0.18]{cellphone.png} \hspace{0pt} \textbf{(410)736-9987}  \hfill  \href{https://www.linkedin.com/in/FreemanZhang}{$\begin{array}{l} \includegraphics[scale=0.70]{Logo-Black-14px.png}\end{array} \hspace{5pt}$\textbf{https://www.linkedin.com/in/FreemanZhang}\hspace{5pt}}}
+
+%\contact{\textbf{Shijie(Freeman) Zhang}}{ \includegraphics[scale=0.10]{home.png}\hspace{3pt}226 Homewood Terrace, Baltimore, MD 21218 \hfill \href{https://github.com/FreemanZhang} {$\begin{array}{l} \includegraphics[scale=0.035]{GitHub_Logo.png}\end{array} $ https://github.com/FreemanZhang \hspace{45pt}}}
+%{\includegraphics[scale=0.020]{email.png}  \hspace{0.35pt} ShijieZhang@jhu.edu \hspace{35pt} \includegraphics[scale=0.18]{cellphone.png} \hspace{0pt} (410)736-9987  \hfill  \href{https://www.linkedin.com/in/FreemanZhang}{$\begin{array}{l} \includegraphics[scale=0.70]{Logo-Black-14px.png}\end{array} \hspace{5pt}$https://www.linkedin.com/in/FreemanZhang\hspace{5pt}}}
+
+\contact{\textbf{Shijie(Freeman) Zhang}}{ \includegraphics[scale=0.18]{cellphone.png} \hspace{0pt} (410)736-9987 \hfill  \includegraphics[scale=0.10]{home.png}\hspace{5pt}2033 Manhattan Avenue 21, East Palo Alto, CA 94303\hspace{65pt}}
+{\includegraphics[scale=0.020]{email.png}  \hspace{0.35pt} ShijieZhang@jhu.edu \hspace{30pt}   \hfill  \href{https://www.linkedin.com/in/FreemanZhang}{$\begin{array}{l} \includegraphics[scale=0.70]{Logo-Black-14px.png}\end{array} \hspace{15pt}$https://www.linkedin.com/in/FreemanZhang}}
+
+
+%\contact{\textbf{Shijie(Freeman) Zhang}}{ \includegraphics[scale=0.10]{home.png}\hspace{3pt}\textbf{226 Homewood Terrace, Baltimore, MD 21218} \hfill \href{https://github.com/starry-zsj} {$\begin{array}{l} \includegraphics[scale=0.035]{GitHub_Logo.png}\end{array} $\hspace{0.5pt}}}
+%{\includegraphics[scale=0.020]{email.png}  \hspace{0.35pt} \textbf{ShijieZhang@jhu.edu} \hspace{35pt} \includegraphics[scale=0.18]{cellphone.png} \hspace{0pt} \textbf{(410)736-9987}  \hfill  \href{https://www.linkedin.com/profile/view?id=83401207}{$\begin{array}{l} \includegraphics[scale=0.70]{Logo-Black-14px.png}\end{array} \hspace{5pt}$}}
+
+
+
+%\header{Objective}
+
+%\begin{body}
+%	\vspace{18pt}
+%	\textbf{A full-time/co-op position in software engineering}\\
+%\end{body}
+
+%\smallskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Education
+\header{Education}
+
+\begin{body}
+	\vspace{17pt}
+	\textbf{Johns Hopkins University}{}\hfill \emph{September 2013 - May 2015}{} \\
+	Master of Science in Information Security \hfill Major GPA:3.85/4.00\\
+  \smallskip
+	\textbf{University of Science and Technology of China} \hfill \emph{August 2009 - July 2013} \\
+	Bachelor of Engineering in Computer Science \hfill Major GPA:3.51/4.00\\
+\end{body}
+
+\smallskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Skills
+\header{Skills}
+
+\begin{body}
+	\vspace{17pt}
+	\emph{\textbf{Languages:}}{} Proficient(Java, Javascript), Prior Experience(C, Coffeescript, HTML5/CSS, PHP, Ruby, SQL)\\
+    \emph{\textbf{Others:}}{}  Spring MVC, jQuery, AJAX, Node.js, REST,  RDBMS(MySQL), NOSQL(MongoDB), Unix/Linux, AWS\\
+%    \emph{\textbf{Others:}}{}  Database(MongoDB, SQL, Redis), Splunk, AWS, Testing
+
+\end{body}
+\smallskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Experience
+\header{Work Experience}
+
+\begin{body}
+	\vspace{17pt}
+%	\textbf{Information Security Institute, JHU}  \\
+%	\vspace*{-8pt}
+    \textbf{Software Development Intern for an AWS Role Permissions Compliance System} (Python, AWS and Splunk)\\
+
+    \emph{Financial Industry Regulatory Authority (FINRA), Rockville, MD}\hfill \emph{May 2014 - August 2014}\\
+%    \begin{itemize}
+%    \end{itemize}
+     \begin{itemize} \itemsep -0.5pt
+%     \item{ \emph{\textbf{AcSummary }}}
+%     \subitem{Built a production-ready AWS Role Permissions Compliance System within 12 weeks}\\
+    \item{The system featured in \emph{FINRA}'s presentations in \emph{Splunkconf. 2014} and \emph{AWS re:Invent 2014}}
+    \item {Automated the process of converting role permission policies from excel files to JSON formats}
+    \item {Imported AWS CloudTrail data into Splunk to monitor permission changes of AWS IAM APIs}
+   \item{Developed Python scripts to check the compliance of AWS APIs and defined the severity of security incidents}
+%    \item {Check role permissions in AWS IAM and automated  them with predefined rules}
+%    \item {Utilized AWS CloudTrail to gain a comprehensive security compliance overview of AWS accounts}
+ %   \item{Defined the severity of security incidents and raised high incidents into OTRS ticketing system}
+%    \item{Automated weekly and monthly automatic checks by Cron and }
+%    \item {Collaborated with engineers and managers to prototype and build an executive dashboard of permissions compliance}
+    \end{itemize}
+	
+	\vspace{1pt}
+    \textbf{Research Assistant for Multimedia Processing and Information Security} (Matlab, Latex, OpenGL)\\
+    \emph{National Engineering Lab of Speech and Language Information Processing,  Hefei, China } \hfill \emph{March 2012 - July 2013 }
+
+        \begin{itemize} \itemsep -0.5pt
+%  \item{Conference Paper "Tunable Attribution: Weaponization of Signature-Based Anti-Virus Software"\\
+ %       Lanier Watkins, Hongwei Lou, {\bf Shijie Zhang}, et al.     \emph{10th Inter. Conf. on Malicious and Unwanted Software, 2015.}}
+  \item{Journal Paper "Automatic Tag Saliency Ranking for Stereo Images"\\
+    Yang Cao, Kai Kang,  {\bf Shijie Zhang}, et al.
+    Accepted in \emph{Neurocomputing, 2015.} {\small\textbf{{(5-Year IF: 2.102)}}}}
+
+  \item{Conference Paper "Underwater Stereo Image Enhancing Using a New Physical Model"\\
+    {\bf Shijie Zhang}, Jing Zhang, et al.
+    \emph{21st International Conference on Image Processing (ICIP), 2014.}}
+
+    \item{Journal \& Conference Paper "A Novel Segmentation-based Video Denoising Method with Noise Level Estimation"\\
+    {\bf Shijie Zhang}, Yang Cao, et al.
+    \emph{19th International Conference on Multimedia Modeling (MMM), 2013.} \textbf{Oral}.\\
+    Also invited at \emph{Information Sciences}, Vol. 281, pp. 507-520, October 2014.  {\small\textbf{{(5-Year IF: 3.969)}}} }
+%    \item{First author for paper "A Novel Segmentation-based Video Denoising Method with Noise Level Estimation"}
+%       \subitem{First accepted as Oral (\%27) in 19th International Conference on Multimedia Modeling (MMM 2013)}
+%        \subitem{Then invited and accepted in Information Science, Elsevier (5-Year Impact Factor: 3.969)}
+%    \item{First author for paper "Underwater Stereo Image Enhancing Using a New Physical Model"}
+%        \subitem{Accepted in 21st International Conferene on Image Processing (ICIP 2014)}
+      \end{itemize}
+
+\end{body}
+
+
+\smallskip
+
+
+\header{Project Experience}
+
+\begin{body}
+	\vspace{18pt}	
+
+%   \textbf{$\begin{array}{l}\includegraphics[scale=0.44]{reverse.png}\end{array} $Reverse engineering Malware \emph{Zeus 2.0.8.9}} (IDA Pro, Wireshark)  
+%    \begin{itemize}\itemsep -0pt  % reduce space between items
+
+%    \item{\emph{Setup}: Reconstructed \emph{Zeus} botnet and explored \emph{Zeus} activities on registry keys, disk files, processes and network traffic}
+%   \item{ \emph{Reverse-engineering}: Launched static/dynamic analysis on \emph{Zeus} and analyzed vulnerabilities of bot server and clients}
+%    \item{\emph{Traffic}: Performed chosen plaintext attacks to decrypt \emph{Zeus} communication and DOS attacks to overwhelm bot servers}
+%    \item{\emph{Attribution}: Used the correlation between \emph{Zeus} functionalities and virus detection to generate a mis-attributed malware}
+%    \end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+	\textbf{$\begin{array}{l}\includegraphics[scale=0.05]{scalable.png}\end{array} $A Scalable Instant Messaging Single-page App} (Express, Node.js, jQuery, MongoDB) 
+     \begin{itemize} \itemsep -0pt
+	\item{\emph{Client-side routing}: Created the UI layout and associated history control supports} 
+	\item{\emph{Modular Javascript}: Used the module pattern and publish/subscribe pattern to develop manageable units}
+	\item{\emph{Server-side synchronization}:  Developed full-duplex communication channels in with Socket.IO and JSON}
+	\item{\emph{NoSQL}:  Validated incoming client data and implemented MongoDB CRUD operations}
+           \end{itemize}	
+
+%	\item{\emph{Distributed messaging}:}
+%	\item{\emph{Client-side business logic}: Performed data modeling and consolidated data access in a single module}
+%	\item{\emph{Server-side routing}: Created CRUD routes for data access using Express middleware}
+%	\item{\emph{Load/Stress testing}: fault tolerance}
+%	\item{Guaranteed a cross-device loading time for an average size web page (10M) under 100 requests within 1.5s }
+%	\item{Developed interfaces with AngularJS and supported multiple OAuth authentication mechanisms}
+%	\item{Automated messaging management, testing and deployment with RabbitMQ, Grunt and Ansible}
+%        \item {Supported multiple OAuth providers by Passport framework and automated testing with Grunt}
+%	\item {Utilized AngularJS directives for DOM manipulation, data binding, form validation and template generation}
+
+
+
+
+
+
+
+
+	\textbf{$\begin{array}{l}\includegraphics[scale=0.11]{security.png}\end{array} $A Secure Web-based Group Forum} (PHP, Bootstrap, MySQL) 
+     \begin{itemize} \itemsep -0pt
+	\item{\emph{Data structure}: Designed an efficient database schema to store posts and its corresponding replies}
+       \item{\emph{Data filtering}: Performed validation and sanitation to eliminate XSS, CSRF and SQL Injection vulnerabilities}
+        \item{\emph{Access control}: Restricted access to members-only pages by authentication, authorization and session control}
+        \item{\emph{Availability}: Implemented automatic MySQL database replication to recover from server failures}
+%     	\item {Built a subscription list manager with string matching and enhanced the application to deal with attachment}
+%        \item {Utilized Ratchet and jQuery Mobile to build responsive real-time single-page inbox module}
+ %       \item{\emph{Transmission}: Secure the transmission by end-to-end encryption including SSL and GPG}
+%	\item{Designed responsive interfaces with Compass, HTML5 and jQuery}
+%        \item {Secured the application with input validation, session control, SSL authentication and access control}
+        \end{itemize}
+
+
+
+
+
+
+	\textbf{$\begin{array}{l}\includegraphics[scale=0.11]{mobile2.png}\end{array} $A RESTful Online Poll Web Service} (Java, Spring MVC, JPA, REST)
+        \begin{itemize} \itemsep -0pt
+       \item{\emph{Resource modeling}: Identified and developed REST resources, endpoints, actions and responses}
+	\item{\emph{Error handling}:  Validated API inputs and implemented meaningful error response messages}
+	\item{\emph{Paging and versioning}: Employed pagination to handle large datasets and URL versioning to handle API changes}
+        \end{itemize}
+
+%        \item {Implemented a business tier with session beans and message queueing with Java Message Service}
+ %       \item{\empt{Responsive design}:}
+%        \item{\emph{Clients and Testing}: Built REST clients, unit testing and integration testing cases using Spring MVC framework}
+      %Responsiveness, testing responsiveness with media query
+%        \item {Constructed the RESTful web service with Websockets, JSON-P and JAX-RS}
+%        \item{Achieved data persistence with Hibernate and JPA annotations}
+%	\item{Developed extensive testing cases with JUnit and Mockito, resulting in a 90\% code coverage}
+
+        
+%   \textbf{$\begin{array}{l}\includegraphics[scale=0.04]{mobile.png}\end{array} $Redesigning Android Security Settings Interface}  (Justinmind)
+%    \begin{itemize}\itemsep -0pt  % reduce space between items
+
+%    \item{\emph{Security setting deficiencies}: Identified improper designed security features on Android 4.0}
+%   \item{ \emph{Improved security features}: Redesigned security features including backup, password and Wi-Fi management}
+%    \item{\emph{Testing}: Conducted user testing using redesigned mockups and improved the interface based on feedbacks}
+%    \end{itemize}
+        
+        
+        
+                
+        	\textbf{$\begin{array}{l}\includegraphics[scale=0.04]{design.jpg}\end{array} $A High Performance E-commerce Website} (Ruby on Rails, Coffeescript)
+        \begin{itemize} \itemsep -0pt
+	\item{\emph{AJAX and internationalization}: Ajaxified the shopping cart and created translation files for alternate locales}
+	\item{\emph{Memory optimization}: Profiled memory to locate choke points and implemented according ROR best practices}
+	\item{\emph{Caching}: Developed various caching strategies (ETag, view caching, data caching and Ajax caching)}
+        \end{itemize}
+
+%	\item{\emph{Performance testing}: Designed a benchmark function and launched load/stress testing on the website}
+%	\item{\emph{Shopping cart}: Built a smart shopping cart and Implemented Javascript and CSS best practices (AJAX, web workers, minify asset, avoid redirects, etc.)}
+%	\item{\emph{Performance testing}: Page response time for omni-channels under K page requests per second}
+% (HTML5 client-side database and web storage) 
+%	        \item{Guaranteed the response time less than 1s under 500 concurrent requests by load testing tool The Grinder}
+
+%        \item{Achieved benchmark database performance(1.2ms/request) after optimizing schema, index and query}
+%        \item {Assured robustness of the web application with unit test libraries and integration testing tool Selenium}
+% 	\item{Classified songs automatically with Scikit, resulting in a precision value of 0.85 and an recall value of 0.95.}
+%        \item {Notified followers the available of new albums via email and displayed listeners' comments on the song in real time}
+%        \item {Manage all types of contents using a combination of Google Cloud SQL and and Google Cloud Datastore}
+
+
+        	
+                	
+   \textbf{$\begin{array}{l}\includegraphics[scale=0.14]{distributed5.png}\end{array} $A Fault-tolerant Distributed Chat Room Application} (C, SpreadToolkit)  
+%    Constructed a reliable and scalable chat room service, which enabled users to join/leave a chat room, append/like/dislike a message, retrieve historical messages and have consistent views as much as possible.
+     \begin{itemize} \itemsep -0pt
+       \item {\emph{Availability}: Deployed Spread daemons on different servers and redirected clients to available servers when necessary}
+        \item {\emph{Consistency}: Built an efficient UDP-based multicasting program based on Lamport timestamps for synchronization}
+        \item {\emph{Failure recovery}: Implemented reconciliation algorithm to recover from network partitions and server crashes}
+ %       \item {Created database schema constraints on MySQL database and implemented according SQL statements}
+%        \item {Conducted intensive unit testing and integration testing to assure the stability and correctness of the application}
+        \end{itemize}
+
+
+
+
+
+
+
+
+
+%    \textbf{Social Network Data Acquisition}\hfill \emph{September 2013 - December 2013}\\
+%    Refactored open-source crawler Heritrix and enhanced its capabilities to fight against anti-crawler techniques.\\
+%	\begin{itemize} \itemsep -0pt  % reduce space between items}
+%        \item {Investigated prevalent anti-crawler techniques across social networking websites and devised according countermeasures}
+%		\item {Incorporated Java module Httpclient to submit log-in parameters and Htmlunit to parse complicated Javascripts}
+%        \item {Utilized techniques including multi-account, multi-address and randomized requesting frequencies for better disguise}
+%        \item {Examined large volume of crawled web pages with HTML Parser and content filters for analyzing threats of shared links}
+%	\end{itemize}
+
+%    \textbf{A Two-wheel Self-balancing Robot with Line-inspection Navigation} \hfill \emph{June 2012 - November 2012}\\
+%    Led a 5-person team and won the 3rd place among 26 teams in 2011 Robogame of USTC. \\
+%    \begin{itemize} \itemsep -0pt
+%        \item {Simulated in Matlab Simulink for dynamics and kinematics analysis}
+%        \item {Implemented PID algorithm for self-balancing and collaborative filtering algorithm for accelerometer and gyroscope}
+%        \item {Coordinated progress in mechanical manufacturing, electrical design and software development}
+
+%        \end{itemize}
+\end{body}
+
+% \newpage{} % uncomment this line if you want to force a new page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Leadership
+%\header{Activities}
+
+%\begin{body}
+%	\vspace{14pt}
+%	\textbf{USTC Student Union} \hfill {} \emph{August 2009 - July 2013}\\
+%    \vspace{7pt}
+%    \textbf{Virginia Tech, Language and Culture Institute}\\ {The Summer Program for Scientific Communication} {}\hfill\emph{July 2011- August 2011}\\
+%	\vspace{7
+%	\textbf{Volunteer at South Africa Mother's Orphanage} \hfill {} \emph{July 2009 - August 2009}\\
+%\end{body}
+
+%\smallskip
+
+
+
+
+\end{document}
