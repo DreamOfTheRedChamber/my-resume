@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  13 SEP 2015 01:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  25 JUL 2016 19:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -415,118 +415,78 @@ LaTeX Info: Redefining \nameref on input line 85.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 97.
+(Font)              using `OT1/cmr/bx/n' instead on input line 98.
 
 <cellphone.png, id=4, 48.18pt x 48.18pt>
 File: cellphone.png Graphic file (type png)
  <use cellphone.png>
-Package pdftex.def Info: cellphone.png used on input line 97.
+Package pdftex.def Info: cellphone.png used on input line 98.
 (pdftex.def)             Requested size: 8.67201pt x 8.67201pt.
-
-<home.png, id=6, 128.48pt x 128.48pt>
-File: home.png Graphic file (type png)
- <use home.png>
-Package pdftex.def Info: home.png used on input line 97.
-(pdftex.def)             Requested size: 12.84874pt x 12.84874pt.
-
-<email.png, id=7, 513.92pt x 513.92pt>
-File: email.png Graphic file (type png)
- <use email.png>
-Package pdftex.def Info: email.png used on input line 97.
-(pdftex.def)             Requested size: 10.28056pt x 10.28056pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 97.
+LaTeX Font Info:    Try loading font information for U+msa on input line 98.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 97.
+LaTeX Font Info:    Try loading font information for U+msb on input line 98.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Logo-Black-14px.png, id=9, 56.21pt x 14.0525pt>
-File: Logo-Black-14px.png Graphic file (type png)
- <use Logo-Black-14px.png>
-Package pdftex.def Info: Logo-Black-14px.png used on input line 97.
-(pdftex.def)             Requested size: 39.34673pt x 9.83667pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 157.
+<email.png, id=7, 513.92pt x 513.92pt>
+File: email.png Graphic file (type png)
+ <use email.png>
+Package pdftex.def Info: email.png used on input line 98.
+(pdftex.def)             Requested size: 10.28056pt x 10.28056pt.
+
+<home.png, id=9, 128.48pt x 128.48pt>
+File: home.png Graphic file (type png)
+ <use home.png>
+Package pdftex.def Info: home.png used on input line 98.
+(pdftex.def)             Requested size: 12.84874pt x 12.84874pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 161.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 157.
-
-<scalable.png, id=10, 301.125pt x 301.125pt>
-File: scalable.png Graphic file (type png)
- <use scalable.png>
-Package pdftex.def Info: scalable.png used on input line 224.
-(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
-
-<security.png, id=11, 128.48pt x 128.48pt>
-File: security.png Graphic file (type png)
- <use security.png>
-Package pdftex.def Info: security.png used on input line 249.
-(pdftex.def)             Requested size: 14.13283pt x 14.13283pt.
-
-<mobile2.png, id=12, 150.5625pt x 155.58125pt>
-File: mobile2.png Graphic file (type png)
- <use mobile2.png>
-Package pdftex.def Info: mobile2.png used on input line 267.
-(pdftex.def)             Requested size: 16.56192pt x 17.11398pt.
-
-<design.jpg, id=13, 361.35pt x 361.35pt>
-File: design.jpg Graphic file (type jpg)
- <use design.jpg>
-Package pdftex.def Info: design.jpg used on input line 294.
-(pdftex.def)             Requested size: 14.45154pt x 14.45154pt.
-
-<distributed5.png, id=14, 157.0668pt x 157.0668pt>
-File: distributed5.png Graphic file (type png)
- <use distributed5.png>
-Package pdftex.def Info: distributed5.png used on input line 316.
-(pdftex.def)             Requested size: 21.9892pt x 21.9892pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 372.
-
-[1
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 161.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 249.
+ [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./cellp
-hone.png> <./home.png> <./email.png> <./Logo-Black-14px.png> <./scalable.png> <
-./security.png> <./mobile2.png> <./design.jpg> <./distributed5.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 372.
-
-(./Shijie_resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 372.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 372.
+hone.png> <./email.png> <./home.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 249.
+ (./Shijie_resume.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 249.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 249.
 Package rerunfilecheck Info: File `Shijie_resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 372.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 249.
  ) 
 Here is how much of TeX's memory you used:
- 7299 strings out of 493117
- 106607 string characters out of 6135433
- 205941 words of memory out of 5000000
- 10656 multiletter control sequences out of 15000+600000
- 7865 words of font info for 30 fonts, out of 8000000 for 9000
+ 7264 strings out of 493117
+ 106053 string characters out of 6135433
+ 202941 words of memory out of 5000000
+ 10630 multiletter control sequences out of 15000+600000
+ 7258 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,11n,49p,415b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,5n,36p,415b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Shijie_resume.pdf (1 page, 176468 bytes).
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Shijie_resume.pdf (1 page, 125649 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 51 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
