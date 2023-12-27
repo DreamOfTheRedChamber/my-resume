@@ -1,0 +1,274 @@
+\documentclass[3pt]{article}
+%\documentclass[unicode]{moderncv}
+\usepackage{graphicx}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[export]{adjust box}
+\usepackage{bbding}
+%\usepackage{moderncv}
+\usepackage{hyperref}
+%\usepackage[usenames]{color}
+\usepackage[
+top    = 2.50cm,
+bottom = 2.50cm,
+left   = 1.30cm,
+right  = 1.50cm]{geometry}
+
+\leftmargin=0.55in
+\oddsidemargin=-0.15in
+\textwidth=6.8in
+\topmargin=-0.8in
+\textheight=10.60in
+
+\raggedright
+
+\pagenumbering{arabic}
+\pagestyle{empty}
+
+\def\bull{\vrule height 0.8ex width .9ex depth -.1ex }
+% DEFINITIONS FOR RESUME
+
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item[]}{\end{list}
+}
+
+\newcommand{\lineover}{
+	\begin{changemargin}{-0.05in}{-0.05in}
+		\vspace*{-8pt}
+		\hrulefill \\
+		\vspace*{-2pt}
+	\end{changemargin}
+}
+
+\newcommand{\header}[1]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		{\Large \scshape{#1}}\\
+  	\lineover
+	\end{changemargin}
+}
+
+\newcommand{\contact}[4]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\begin{center}
+			{\Large \scshape {#1}}\\ \smallskip
+			{#2}\\ \smallskip
+			{#3}\\ \smallskip
+			{#4}\smallskip
+		\end{center}
+	\end{changemargin}
+}
+
+\newenvironment{body} {
+	\vspace*{-16pt}
+	\begin{changemargin}{-0.25in}{-0.5in}
+  }	
+	{\end{changemargin}
+}	
+
+\newcommand{\school}[4]{
+	\textbf{#1} \hfill \emph{#2\\}
+	#3\\
+	#4\\
+}
+
+% END RESUME DEFINITIONS
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Name
+%\contact{\textbf{Shijie(Freeman) Zhang}}{ \includegraphics[scale=0.10]{home.png}\hspace{3pt}\textbf{226 Homewood Terrace, Baltimore, MD 21218} \hfill \href{https://github.com/FreemanZhang} {$\begin{array}{l} \includegraphics[scale=0.035]{GitHub_Logo.png}\end{array} $ \textbf{https://github.com/FreemanZhang} \hspace{0.5pt}}}
+%{\includegraphics[scale=0.020]{email.png}  \hspace{0.35pt} \textbf{ShijieZhang@jhu.edu} \hspace{35pt} \includegraphics[scale=0.18]{cellphone.png} \hspace{0pt} \textbf{(410)736-9987}  \hfill  \href{https://www.linkedin.com/in/FreemanZhang}{$\begin{array}{l} \includegraphics[scale=0.70]{Logo-Black-14px.png}\end{array} \hspace{5pt}$\textbf{https://www.linkedin.com/in/FreemanZhang}\hspace{5pt}}}
+
+%\contact{\textbf{Shijie(Freeman) Zhang}}{ \includegraphics[scale=0.10]{home.png}\hspace{3pt}226 Homewood Terrace, Baltimore, MD 21218 \hfill \href{https://github.com/FreemanZhang} {$\begin{array}{l} \includegraphics[scale=0.035]{GitHub_Logo.png}\end{array} $ https://github.com/FreemanZhang \hspace{45pt}}}
+%{\includegraphics[scale=0.020]{email.png}  \hspace{0.35pt} ShijieZhang@jhu.edu \hspace{35pt} \includegraphics[scale=0.18]{cellphone.png} \hspace{0pt} (410)736-9987  \hfill  \href{https://www.linkedin.com/in/FreemanZhang}{$\begin{array}{l} \includegraphics[scale=0.70]{Logo-Black-14px.png}\end{array} \hspace{5pt}$https://www.linkedin.com/in/FreemanZhang\hspace{5pt}}}
+
+\contact{\textbf{Eric Zhang}}
+{\hspace{0pt} (410)736-9987 \hfill  {$\begin{array}{l}\end{array} \hspace{15pt}$ericzhangworking@gmail.com}}
+{\hspace{5pt}6126 140th CT NE, Redmond, WA 98052 \hspace{0pt}  \hfill \href{https://github.com/DreamOfTheRedChamber}{$\begin{array}{l}\end{array} \hspace{15pt}$https://github.com/DreamOfTheRedChamber}}
+
+
+%\contact{\textbf{Shijie(Freeman) Zhang}}{ \includegraphics[scale=0.10]{home.png}\hspace{3pt}\textbf{226 Homewood Terrace, Baltimore, MD 21218} \hfill \href{https://github.com/starry-zsj} {$\begin{array}{l} \includegraphics[scale=0.035]{GitHub_Logo.png}\end{array} $\hspace{0.5pt}}}
+%{\includegraphics[scale=0.020]{email.png}  \hspace{0.35pt} \textbf{ShijieZhang@jhu.edu} \hspace{35pt} \includegraphics[scale=0.18]{cellphone.png} \hspace{0pt} \textbf{(410)736-9987}  \hfill  \href{https://www.linkedin.com/profile/view?id=83401207}{$\begin{array}{l} \includegraphics[scale=0.70]{Logo-Black-14px.png}\end{array} \hspace{5pt}$}}
+
+
+
+%\header{Objective}
+
+%\begin{body}
+%	\vspace{18pt}
+%	\textbf{A full-time/co-op position in software engineering}\\
+%\end{body}
+
+\bigskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Experience
+\header{Work Experience}
+
+\begin{body}
+	\vspace{17pt}
+	
+   \textbf{Software Engineer II - Authorization Domain Expert} \\
+   \vspace{1pt}
+
+    \emph{Microsoft, Redmond, WA}\hfill \emph{July 2019 - Present}\\
+     \begin{itemize} \itemsep -0.5pt
+    \item {Led Microsoft wide initiative to support proof of possession authentication token, unblocking selling to Financial SaaS.}
+    \item {Drove the adoption of next-generation Microsoft Authorization protocol for \$5M/y team-wise COGS reduction.}
+    \item {Led the auth framework migration from ADAL.NET to MSAL.NET,  preventing SPOF in Azure token issuing service.}
+     \end{itemize}
+
+   \textbf{Software Engineer II - Critical Service Owner} \\
+   \vspace{1pt}
+
+    \emph{Microsoft, Redmond, WA}\hfill \emph{May 2017 - June 2019}\\
+     \begin{itemize} \itemsep -0.5pt
+    \item {Decomposed monolithic app into microservices and owned mission critical authorization service.}
+    \item {Owned tier zero Teams sign-in service and drove the service availability to five nine standard.}
+     \item {Led the Microsoft Teams trial license and cross-tenant licensing features which result in additional 1M yearly signup.}
+     \end{itemize}
+
+%	\textbf{Information Security Institute, JHU}  \\
+%	\vspace*{-8pt}
+    \textbf{Software Engineer} \\
+   \vspace{1pt}
+
+    \emph{OpenText, San Mateo, CA}\hfill \emph{October 2015 - April 2017}\\
+     \begin{itemize} \itemsep -0.5pt
+    \item{Implemented column-based report data source compression for top level Eclipse open source project BIRT, resulting in a 16\% less data than original row-based compression on average (Java).}
+     \item {Enhanced gantt charts exporting features for HTML5 with Javascript and Highcharts. } 
+     \item {Developed integration testing with Maven and Selenium for report war files on embedded Tomcat server. } 
+       \end{itemize}
+	
+   \vspace{5pt}
+
+%	\textbf{Information Security Institute, JHU}  \\
+%	\vspace*{-8pt}
+    \textbf{Software Development Intern} \\
+
+    \emph{Financial Industry Regulatory Authority (FINRA), Rockville, MD}\hfill \emph{May 2014 - August 2014}\\
+%    \begin{itemize}
+%    \end{itemize}
+     \begin{itemize} \itemsep -0.5pt
+%     \item{ \emph{\textbf{AcSummary }}}
+%     \subitem{Built a production-ready AWS Role Permissions Compliance System within 12 weeks}\\
+    \item{Developed a Role Permissions Compliance System on AWS, which was later featured in AWS re:Invent 2015.}
+     \item {Created Python scripts to fetch permission settings from AWS IAM and compared with benchmarks in S3.}
+     \item {Integrated with Splunk and AWS CloudTrail to automate the process of daily/monthly security checking, leading to a 13.5\% reduction in AWS billing line items in 1 month.}
+   
+%    \item {Automated the process of converting role permission policies from excel files to JSON formats}
+%    \item {Imported AWS CloudTrail data into Splunk to monitor permission changes of AWS IAM APIs}
+%   \item{Developed Python scripts to check the compliance of AWS APIs and defined the severity of security incidents}
+    \end{itemize}
+	
+%	\vspace{1pt}
+ %   \textbf{Research Assistant} ( Multimedia processing )\\
+ %   \emph{National Engineering Lab of Speech and Language Information Processing,  Hefei, China } \hfill \emph{March 2012 - July 2013 }
+
+\end{body}
+\bigskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Open Source
+\header{Open Source \& Volunteering}
+
+\begin{body}
+	\vspace{17pt}
+	\textbf{System Design Gitbook} \hfill \href{https://eric-zhang-seattle.gitbook.io/mess-around/}{$\begin{array}{l}\end{array} \hspace{15pt}$https://eric-zhang-seattle.gitbook.io/mess-around/}\\
+	1.8K stars, 600+ forks\\
+  \smallskip
+	\textbf{Toastmaster Club} \hfill \href{https://eric-zhang-seattle.gitbook.io/think-bigger/presentations}{$\begin{array}{l}\end{array} \hspace{15pt}$https://eric-zhang-seattle.gitbook.io/think-bigger/presentations}\\
+	Passionate about phychology,  communication and technology\\
+ \smallskip
+	\textbf{Polly Fallback To Cache Policy}{}\hfill \href{https://github.com/Polly-Contrib/Polly.Contrib.CachePolicy}{$\begin{array}{l}\end{array} \hspace{15pt}$https://github.com/Polly-Contrib/Polly.Contrib.CachePolicy}\\
+		Resilience policy in C\#'s resilience4j library \hfill \\
+\end{body}
+
+\bigskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Education
+\header{Education}
+
+\begin{body}
+	\vspace{17pt}
+	\textbf{University of Maryland, College Park} \hfill \emph{Feb 2019 - May 2021} \\
+	Master of Professional Studies in Technology Entreprenuership \\
+  \smallskip
+	\textbf{Johns Hopkins University}{}\hfill \emph{September 2013 - May 2015}{} \\
+	Master of Science in Information Security \hfill \\
+  \smallskip
+	\textbf{University of Science and Technology of China} \hfill \emph{August 2009 - July 2013} \\
+	Bachelor of Engineering in Computer Science \\
+\end{body}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Skills
+%\header{Skills}
+
+%\begin{body}
+%	\vspace{17pt}
+%	
+%\begin{itemize} \itemsep -0.5pt
+%    \item {Organized 2018 Seattle Startup Weekend and 2018 Seattle Entrepreneur Club Pitch Day.}
+ %    \item {Owned private companies for investing in commercial office condos, apartments and retail centers.}
+%    \end{itemize}
+% \end{body}
+%\bigskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Skills
+%\header{Mooc}
+ 
+%\begin{body}
+%	\vspace{17pt}
+	
+%\begin{itemize} \itemsep -0.5pt
+%    \item {Pluralsight Path: .NET Developer on Microsoft Azure, Being a Technology Manager}
+%    \item {Udacity: Real-time Analytics with Apache Storm, Predicative Analytics for Business, Digital Marketing}
+%     \item {YCombinator: Startup School 2018}
+%    \end{itemize}
+% \end{body}
+% \bigskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Publications
+%\header{Publications}
+
+%\begin{body}
+%	\vspace{18pt}	
+
+%	\textbf{ Automatic Tag Saliency Ranking for Stereo Images}
+%     \begin{itemize} \itemsep -0pt
+%	\item{Yang Cao, Kai Kang, \textbf{Shijie Zhang}, et al. } \hfill \emph{Neurocomputing, 2015  }
+%           \end{itemize}	
+
+%	\textbf{ Underwater Stereo Image Enhancing Using a Physical Model }
+%     \begin{itemize} \itemsep -0pt
+%	\item{\textbf{Shijie Zhang}, Jing Zhang, et al. } \hfill \emph{ICIP, 2014 }
+%           \end{itemize}	
+
+%	\textbf{ A Novel Segmentation-based Video Denoising Method with Noise Level Estimation }
+%     \begin{itemize} \itemsep -0pt
+%	\item{\textbf{Shijie Zhang}, Yang Cao, et al. } \hfill \emph{MMM, 2013 (Oral) \& Invited to Information Sciences, 2014  }
+%           \end{itemize}	
+
+%\end{body}
+
+
+\end{document}
