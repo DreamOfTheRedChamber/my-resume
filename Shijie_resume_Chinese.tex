@@ -9,6 +9,7 @@
 %\usepackage{moderncv}
 \usepackage{hyperref}
 %\usepackage[usenames]{color}
+\usepackage{CJKutf8}
 \usepackage[
 top    = 2.50cm,
 bottom = 2.50cm,
@@ -83,6 +84,7 @@ right  = 1.50cm]{geometry}
 % END RESUME DEFINITIONS
 
 \begin{document}
+\begin{CJK}{UTF8}{gbsn}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Name
@@ -94,7 +96,7 @@ right  = 1.50cm]{geometry}
 
 \contact{\textbf{张世杰}}
 {\hspace{0pt} 180-0929-2809 \hfill  {$\begin{array}{l}\end{array} \hspace{15pt}$sjzpersonal@outlook.com}}
-{\hspace{5pt}6126 140th CT NE, Redmond, WA 98052 \hspace{0pt}  \hfill \href{https://github.com/DreamOfTheRedChamber}{$\begin{array}{l}\end{array} \hspace{15pt}$https://github.com/DreamOfTheRedChamber}}
+{\hspace{5pt}西安市未央区 \hspace{0pt}  \hfill \href{https://github.com/DreamOfTheRedChamber}{$\begin{array}{l}\end{array} \hspace{15pt}$开源项目 https://github.com/DreamOfTheRedChamber}}
 
 
 %\contact{\textbf{Shijie(Freeman) Zhang}}{ \includegraphics[scale=0.10]{home.png}\hspace{3pt}\textbf{226 Homewood Terrace, Baltimore, MD 21218} \hfill \href{https://github.com/starry-zsj} {$\begin{array}{l} \includegraphics[scale=0.035]{GitHub_Logo.png}\end{array} $\hspace{0.5pt}}}
@@ -115,26 +117,19 @@ right  = 1.50cm]{geometry}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Experience
-\header{Work Experience}
+\header{工作经历}
 
 \begin{body}
 	\vspace{17pt}
 	
-   \textbf{Software Engineer II - Authorization Domain Expert} \\
+   \textbf{高级软件工程师} \\
    \vspace{1pt}
 
-    \emph{Microsoft, Redmond, WA}\hfill \emph{July 2019 - Present}\\
+    \emph{微软, 雷德蒙德，美国华盛顿州}\hfill \emph{2017/04 - 2022/09}\\
      \begin{itemize} \itemsep -0.5pt
     \item {Led Microsoft wide initiative to support proof of possession authentication token, unblocking selling to Financial SaaS.}
     \item {Drove the adoption of next-generation Microsoft Authorization protocol for \$5M/y team-wise COGS reduction.}
     \item {Led the auth framework migration from ADAL.NET to MSAL.NET,  preventing SPOF in Azure token issuing service.}
-     \end{itemize}
-
-   \textbf{Software Engineer II - Critical Service Owner} \\
-   \vspace{1pt}
-
-    \emph{Microsoft, Redmond, WA}\hfill \emph{May 2017 - June 2019}\\
-     \begin{itemize} \itemsep -0.5pt
     \item {Decomposed monolithic app into microservices and owned mission critical authorization service.}
     \item {Owned tier zero Teams sign-in service and drove the service availability to five nine standard.}
      \item {Led the Microsoft Teams trial license and cross-tenant licensing features which result in additional 1M yearly signup.}
@@ -142,10 +137,10 @@ right  = 1.50cm]{geometry}
 
 %	\textbf{Information Security Institute, JHU}  \\
 %	\vspace*{-8pt}
-    \textbf{Software Engineer} \\
+    \textbf{软件工程师} \\
    \vspace{1pt}
 
-    \emph{OpenText, San Mateo, CA}\hfill \emph{October 2015 - April 2017}\\
+    \emph{安迅公司 Actuate Corporation, 圣马蒂奥, 美国加利福尼亚州}\hfill \emph{2015/10 - 2017/04}\\
      \begin{itemize} \itemsep -0.5pt
     \item{Implemented column-based report data source compression for top level Eclipse open source project BIRT, resulting in a 16\% less data than original row-based compression on average (Java).}
      \item {Enhanced gantt charts exporting features for HTML5 with Javascript and Highcharts. } 
@@ -156,17 +151,17 @@ right  = 1.50cm]{geometry}
 
 %	\textbf{Information Security Institute, JHU}  \\
 %	\vspace*{-8pt}
-    \textbf{Software Development Intern} \\
+    \textbf{软件工程实习生} \\
 
-    \emph{Financial Industry Regulatory Authority (FINRA), Rockville, MD}\hfill \emph{May 2014 - August 2014}\\
+    \emph{美国金融监管局 FINRA, 洛克维尔, 马里兰州}\hfill \emph{2014/05 - 2014/08}\\
 %    \begin{itemize}
 %    \end{itemize}
      \begin{itemize} \itemsep -0.5pt
 %     \item{ \emph{\textbf{AcSummary }}}
 %     \subitem{Built a production-ready AWS Role Permissions Compliance System within 12 weeks}\\
-    \item{Developed a Role Permissions Compliance System on AWS, which was later featured in AWS re:Invent 2015.}
-     \item {Created Python scripts to fetch permission settings from AWS IAM and compared with benchmarks in S3.}
-     \item {Integrated with Splunk and AWS CloudTrail to automate the process of daily/monthly security checking, leading to a 13.5\% reduction in AWS billing line items in 1 month.}
+    \item{在亚马逊云上开发一个Splunk中基于角色的权限管理系统，公司并基于此项工作在AWS：reInvent 2015中做了演讲.}
+     \item {用Python脚本从AWS IAM中取得权限信息并与存储在AWS S3中的标准进行对比.}
+     \item {整合AWS CloudTrail日志进入Splunk来自动化周期性的安全检查，此工作减少了13.5\%的AWS云日志费用}
    
 %    \item {Automated the process of converting role permission policies from excel files to JSON formats}
 %    \item {Imported AWS CloudTrail data into Splunk to monitor permission changes of AWS IAM APIs}
@@ -183,36 +178,36 @@ right  = 1.50cm]{geometry}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Open Source
-\header{Open Source \& Volunteering}
+%\header{Open Source \& Volunteering}
 
-\begin{body}
-	\vspace{17pt}
-	\textbf{System Design Gitbook} \hfill \href{https://eric-zhang-seattle.gitbook.io/mess-around/}{$\begin{array}{l}\end{array} \hspace{15pt}$https://eric-zhang-seattle.gitbook.io/mess-around/}\\
-	1.8K stars, 600+ forks\\
-  \smallskip
-	\textbf{Toastmaster Club} \hfill \href{https://eric-zhang-seattle.gitbook.io/think-bigger/presentations}{$\begin{array}{l}\end{array} \hspace{15pt}$https://eric-zhang-seattle.gitbook.io/think-bigger/presentations}\\
-	Passionate about phychology,  communication and technology\\
- \smallskip
-	\textbf{Polly Fallback To Cache Policy}{}\hfill \href{https://github.com/Polly-Contrib/Polly.Contrib.CachePolicy}{$\begin{array}{l}\end{array} \hspace{15pt}$https://github.com/Polly-Contrib/Polly.Contrib.CachePolicy}\\
-		Resilience policy in C\#'s resilience4j library \hfill \\
-\end{body}
+%\begin{body}
+%	\vspace{17pt}
+%	\textbf{System Design Gitbook} \hfill \href{https://eric-zhang-seattle.gitbook.io/mess-around/}{$\begin{array}{l}\end{array} \hspace{15pt}$https://eric-zhang-seattle.gitbook.io/mess-around/}\\
+%	1.8K stars, 600+ forks\\
+%  \smallskip
+%	\textbf{Toastmaster Club} \hfill \href{https://eric-zhang-seattle.gitbook.io/think-bigger/presentations}{$\begin{array}{l}\end{array} \hspace{15pt}$https://eric-zhang-seattle.gitbook.io/think-bigger/presentations}\\
+%	Passionate about phychology,  communication and technology\\
+% \smallskip
+%	\textbf{Polly Fallback To Cache Policy}{}\hfill \href{https://github.com/Polly-Contrib/Polly.Contrib.CachePolicy}{$\begin{array}{l}\end{array} \hspace{15pt}$https://github.com/Polly-Contrib/Polly.Contrib.CachePolicy}\\
+%		Resilience policy in C\#'s resilience4j library \hfill \\
+%\end{body}
 
-\bigskip
+%\bigskip
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Education
-\header{Education}
+\header{教育}
 
 \begin{body}
 	\vspace{17pt}
-	\textbf{University of Maryland, College Park} \hfill \emph{Feb 2019 - May 2021} \\
-	Master of Professional Studies in Technology Entreprenuership \\
+	\textbf{马里兰大学帕克分校} \hfill \emph{2019/02 - 2021/05} \\
+	科技创业硕士学位 \\
   \smallskip
-	\textbf{Johns Hopkins University}{}\hfill \emph{September 2013 - May 2015}{} \\
-	Master of Science in Information Security \hfill \\
+	\textbf{约翰霍普金斯大学}{}\hfill \emph{2013/09 - 2015/05}{} \\
+	信息安全硕士学位 \hfill \\
   \smallskip
-	\textbf{University of Science and Technology of China} \hfill \emph{August 2009 - July 2013} \\
-	Bachelor of Engineering in Computer Science \\
+	\textbf{中国科学技术大学} \hfill \emph{2009/08 - 2013/07} \\
+	计算机工程学士学位 \\
 \end{body}
 
 
@@ -248,27 +243,30 @@ right  = 1.50cm]{geometry}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Publications
-%\header{Publications}
+\bigskip
 
-%\begin{body}
-%	\vspace{18pt}	
+\header{论文}
 
-%	\textbf{ Automatic Tag Saliency Ranking for Stereo Images}
-%     \begin{itemize} \itemsep -0pt
-%	\item{Yang Cao, Kai Kang, \textbf{Shijie Zhang}, et al. } \hfill \emph{Neurocomputing, 2015  }
-%           \end{itemize}	
+\begin{body}
+	\vspace{18pt}	
 
-%	\textbf{ Underwater Stereo Image Enhancing Using a Physical Model }
-%     \begin{itemize} \itemsep -0pt
-%	\item{\textbf{Shijie Zhang}, Jing Zhang, et al. } \hfill \emph{ICIP, 2014 }
-%           \end{itemize}	
+	\textbf{ Automatic Tag Saliency Ranking for Stereo Images}
+     \begin{itemize} \itemsep -0pt
+	\item{Yang Cao, Kai Kang, \textbf{Shijie Zhang}, et al. } \hfill \emph{Neurocomputing, 2015  }
+           \end{itemize}	
 
-%	\textbf{ A Novel Segmentation-based Video Denoising Method with Noise Level Estimation }
-%     \begin{itemize} \itemsep -0pt
-%	\item{\textbf{Shijie Zhang}, Yang Cao, et al. } \hfill \emph{MMM, 2013 (Oral) \& Invited to Information Sciences, 2014  }
-%           \end{itemize}	
+	\textbf{ Underwater Stereo Image Enhancing Using a Physical Model }
+     \begin{itemize} \itemsep -0pt
+	\item{\textbf{Shijie Zhang}, Jing Zhang, et al. } \hfill \emph{ICIP, 2014 }
+           \end{itemize}	
 
-%\end{body}
+	\textbf{ A Novel Segmentation-based Video Denoising Method with Noise Level Estimation }
+     \begin{itemize} \itemsep -0pt
+	\item{\textbf{Shijie Zhang}, Yang Cao, et al. } \hfill \emph{MMM, 2013 (Oral) \& Invited to Information Sciences, 2014  }
+           \end{itemize}	
 
+\end{body}
+
+\end{CJK}
 
 \end{document}
