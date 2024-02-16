@@ -1,0 +1,308 @@
+\documentclass[3pt]{article}
+%\documentclass[unicode]{moderncv}
+\usepackage{graphicx}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[export]{adjust box}
+\usepackage{bbding}
+%\usepackage{moderncv}
+\usepackage{hyperref}
+%\usepackage[usenames]{color}
+\usepackage{CJKutf8}
+\usepackage[
+top    = 2.50cm,
+bottom = 2.50cm,
+left   = 1.30cm,
+right  = 1.50cm]{geometry}
+
+\leftmargin=0.55in
+\oddsidemargin=-0.15in
+\textwidth=6.8in
+\topmargin=-0.8in
+\textheight=10.60in
+
+\raggedright
+
+\pagenumbering{arabic}
+\pagestyle{empty}
+
+\def\bull{\vrule height 0.8ex width .9ex depth -.1ex }
+% DEFINITIONS FOR RESUME
+
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item[]}{\end{list}
+}
+
+\newcommand{\lineover}{
+	\begin{changemargin}{-0.05in}{-0.05in}
+		\vspace*{-8pt}
+		\hrulefill \\
+		\vspace*{-2pt}
+	\end{changemargin}
+}
+
+\newcommand{\header}[1]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		{\Large \scshape{#1}}\\
+  	\lineover
+	\end{changemargin}
+}
+
+\newcommand{\contact}[4]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\begin{center}
+			{\Large \scshape {#1}}\\ \smallskip
+			{#2}\\ \smallskip
+			{#3}\\ \smallskip
+			{#4}\smallskip
+		\end{center}
+	\end{changemargin}
+}
+
+\newenvironment{body} {
+	\vspace*{-16pt}
+	\begin{changemargin}{-0.25in}{-0.5in}
+  }	
+	{\end{changemargin}
+}	
+
+\newcommand{\school}[4]{
+	\textbf{#1} \hfill \emph{#2\\}
+	#3\\
+	#4\\
+}
+
+% END RESUME DEFINITIONS
+
+\begin{document}
+\begin{CJK}{UTF8}{gbsn}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Name
+%\contact{\textbf{Shijie(Freeman) Zhang}}{ \includegraphics[scale=0.10]{home.png}\hspace{3pt}\textbf{226 Homewood Terrace, Baltimore, MD 21218} \hfill \href{https://github.com/FreemanZhang} {$\begin{array}{l} \includegraphics[scale=0.035]{GitHub_Logo.png}\end{array} $ \textbf{https://github.com/FreemanZhang} \hspace{0.5pt}}}
+%{\includegraphics[scale=0.020]{email.png}  \hspace{0.35pt} \textbf{ShijieZhang@jhu.edu} \hspace{35pt} \includegraphics[scale=0.18]{cellphone.png} \hspace{0pt} \textbf{(410)736-9987}  \hfill  \href{https://www.linkedin.com/in/FreemanZhang}{$\begin{array}{l} \includegraphics[scale=0.70]{Logo-Black-14px.png}\end{array} \hspace{5pt}$\textbf{https://www.linkedin.com/in/FreemanZhang}\hspace{5pt}}}
+
+%\contact{\textbf{Shijie(Freeman) Zhang}}{ \includegraphics[scale=0.10]{home.png}\hspace{3pt}226 Homewood Terrace, Baltimore, MD 21218 \hfill \href{https://github.com/FreemanZhang} {$\begin{array}{l} \includegraphics[scale=0.035]{GitHub_Logo.png}\end{array} $ https://github.com/FreemanZhang \hspace{45pt}}}
+%{\includegraphics[scale=0.020]{email.png}  \hspace{0.35pt} ShijieZhang@jhu.edu \hspace{35pt} \includegraphics[scale=0.18]{cellphone.png} \hspace{0pt} (410)736-9987  \hfill  \href{https://www.linkedin.com/in/FreemanZhang}{$\begin{array}{l} \includegraphics[scale=0.70]{Logo-Black-14px.png}\end{array} \hspace{5pt}$https://www.linkedin.com/in/FreemanZhang\hspace{5pt}}}
+
+\contact{\textbf{张世杰}}
+{\hspace{0pt} 180-0929-2809 \hfill  {$\begin{array}{l}\end{array} \hspace{15pt}$sjzpersonal@outlook.com}}
+{\hspace{5pt}西安市未央区 \hspace{0pt}  \hfill \href{https://github.com/DreamOfTheRedChamber}{$\begin{array}{l}\end{array} \hspace{15pt}$开源项目 https://github.com/DreamOfTheRedChamber}}
+
+
+%\contact{\textbf{Shijie(Freeman) Zhang}}{ \includegraphics[scale=0.10]{home.png}\hspace{3pt}\textbf{226 Homewood Terrace, Baltimore, MD 21218} \hfill \href{https://github.com/starry-zsj} {$\begin{array}{l} \includegraphics[scale=0.035]{GitHub_Logo.png}\end{array} $\hspace{0.5pt}}}
+%{\includegraphics[scale=0.020]{email.png}  \hspace{0.35pt} \textbf{ShijieZhang@jhu.edu} \hspace{35pt} \includegraphics[scale=0.18]{cellphone.png} \hspace{0pt} \textbf{(410)736-9987}  \hfill  \href{https://www.linkedin.com/profile/view?id=83401207}{$\begin{array}{l} \includegraphics[scale=0.70]{Logo-Black-14px.png}\end{array} \hspace{5pt}$}}
+
+
+
+%\header{Objective}
+
+%\begin{body}
+%	\vspace{18pt}
+%	\textbf{A full-time/co-op position in software engineering}\\
+%\end{body}
+
+\bigskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Experience
+\header{工作经历}
+
+\begin{body}
+	\vspace{17pt}
+	
+   \textbf{业务副总} \\
+   \vspace{1pt}
+
+    \emph{西安盛杰力精密机械有限公司, 陕西省西安市}\hfill \emph{2022/10 - 现在}\\
+     \begin{itemize} \itemsep -0.5pt
+	\item {从研究所模具厂等承接电加工订单，协调解决技术难点并组织人员保质保量完成加工.}
+%    \item {Led Microsoft wide initiative to support proof of possession authentication token, unblocking selling to Financial SaaS.}
+	\item {用UG以及AutoCAD对电加工进行预处理建模，并在Sodick机床上完成加工.}
+%    \item {Drove the adoption of next-generation Microsoft Authorization protocol for \$5M/y team-wise COGS reduction.}
+%    \item {Led the auth framework migration from ADAL.NET to MSAL.NET,  preventing SPOF in Azure token issuing service.}
+%	\item {将授权系统从中台系统剥离成为单独的微服务，并维护运行该微服务一年}
+%	\item {设计并实现基于缓存的优雅回退Nuget包，并将其贡献到.NET开源鲁棒性框架Polly中}
+%    \item {Decomposed monolithic app into microservices and owned mission critical authorization service.}
+%    \item {Owned tier zero Teams sign-in service and drove the service availability to five nine standard.}
+%     \item {Led the Microsoft Teams trial license and cross-tenant licensing features which result in additional 1M yearly signup.}
+     \end{itemize}
+
+	\vspace{5pt}
+	
+   \textbf{高级软件工程师} \\
+   \vspace{1pt}
+
+    \emph{微软Teams产品组, 雷德蒙德，美国华盛顿州}\hfill \emph{2017/04 - 2022/09}\\
+     \begin{itemize} \itemsep -0.5pt
+	\item {在中台系统中采用OAuth 2.0协议中POP令牌取代JWT令牌，以使得Teams在金融行业取得更广泛应用}
+%    \item {Led Microsoft wide initiative to support proof of possession authentication token, unblocking selling to Financial SaaS.}
+	\item {将中台系统的认证系统由ADAL.NET迁移到MSAL.NET,以减弱由认证框架导致的单点失败影响}
+%    \item {Drove the adoption of next-generation Microsoft Authorization protocol for \$5M/y team-wise COGS reduction.}
+%    \item {Led the auth framework migration from ADAL.NET to MSAL.NET,  preventing SPOF in Azure token issuing service.}
+	\item {将授权系统从中台系统剥离成为单独的微服务，并维护运行该微服务一年}
+	\item {设计并实现基于缓存的优雅回退Nuget包，并将其贡献到.NET开源鲁棒性框架Polly中}
+%    \item {Decomposed monolithic app into microservices and owned mission critical authorization service.}
+%    \item {Owned tier zero Teams sign-in service and drove the service availability to five nine standard.}
+%     \item {Led the Microsoft Teams trial license and cross-tenant licensing features which result in additional 1M yearly signup.}
+     \end{itemize}
+
+%	\textbf{Information Security Institute, JHU}  \\
+%	\vspace*{-8pt}
+   \vspace{5pt}
+
+    \textbf{软件工程师} \\
+    \emph{安迅公司 Actuate Corporation, 圣马蒂奥, 美国加利福尼亚州}\hfill \emph{2015/10 - 2017/04}\\
+     \begin{itemize} \itemsep -0.5pt
+%    \item{Implemented column-based report data source compression for top level Eclipse open source project BIRT, resulting in a 16\% less data than original row-based compression on average (Java).}
+	\item {在Eclipse著名开源项目BIRT中实现基于列式的报表数据存储压缩，相对于原行式存储方案节省16\%的空间}
+     \item {用Javascripts和Highcharts增强财务报表的HTML5导出功能}
+	\item {用Selenium开发基于Maven和Tomcat服务器的集成测试} 
+%     \item {Developed integration testing with Maven and Selenium for report war files on embedded Tomcat server. } 
+       \end{itemize}
+	
+   \vspace{5pt}
+
+%	\textbf{Information Security Institute, JHU}  \\
+%	\vspace*{-8pt}
+    \textbf{软件工程实习生} \\
+
+    \emph{美国金融监管局 FINRA, 洛克维尔, 马里兰州}\hfill \emph{2014/05 - 2014/08}\\
+%    \begin{itemize}
+%    \end{itemize}
+     \begin{itemize} \itemsep -0.5pt
+%     \item{ \emph{\textbf{AcSummary }}}
+%     \subitem{Built a production-ready AWS Role Permissions Compliance System within 12 weeks}\\
+    \item{在亚马逊云上开发一个Splunk中基于角色的权限管理系统，公司并基于此项工作在AWS：reInvent 2015中做了演讲.}
+     \item {用Python脚本从AWS IAM中取得权限信息并与存储在AWS S3中的标准进行对比.}
+     \item {整合AWS CloudTrail日志进入Splunk来自动化周期性的安全检查，此工作减少了13.5\%的AWS云日志费用}
+   
+%    \item {Automated the process of converting role permission policies from excel files to JSON formats}
+%    \item {Imported AWS CloudTrail data into Splunk to monitor permission changes of AWS IAM APIs}
+%   \item{Developed Python scripts to check the compliance of AWS APIs and defined the severity of security incidents}
+    \end{itemize}
+	
+%	\vspace{1pt}
+ %   \textbf{Research Assistant} ( Multimedia processing )\\
+ %   \emph{National Engineering Lab of Speech and Language Information Processing,  Hefei, China } \hfill \emph{March 2012 - July 2013 }
+
+   \vspace{5pt}
+
+    \textbf{科研助理} \\
+    \emph{中国科学技术大学多媒体实验室}\hfill \emph{2011/10 - 2013/08}\\
+     \begin{itemize} \itemsep -0.5pt
+%    \item{Implemented column-based report data source compression for top level Eclipse open source project BIRT, resulting in a 16\% less data than original row-based compression on average (Java).}
+     \item {主导水下图像增强的课题研究并在图像处理会议ICIP 2014上发表.}
+	\item {协助导师进行视频去噪、以及图像显著性标注的多媒体并在著名会议及期刊上发表.}
+%     \item {Developed integration testing with Maven and Selenium for report war files on embedded Tomcat server. } 
+       \end{itemize}
+
+\end{body}
+\bigskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Open Source
+%\header{Open Source \& Volunteering}
+
+%\begin{body}
+%	\vspace{17pt}
+%	\textbf{System Design Gitbook} \hfill \href{https://eric-zhang-seattle.gitbook.io/mess-around/}{$\begin{array}{l}\end{array} \hspace{15pt}$https://eric-zhang-seattle.gitbook.io/mess-around/}\\
+%	1.8K stars, 600+ forks\\
+%  \smallskip
+%	\textbf{Toastmaster Club} \hfill \href{https://eric-zhang-seattle.gitbook.io/think-bigger/presentations}{$\begin{array}{l}\end{array} \hspace{15pt}$https://eric-zhang-seattle.gitbook.io/think-bigger/presentations}\\
+%	Passionate about phychology,  communication and technology\\
+% \smallskip
+%	\textbf{Polly Fallback To Cache Policy}{}\hfill \href{https://github.com/Polly-Contrib/Polly.Contrib.CachePolicy}{$\begin{array}{l}\end{array} \hspace{15pt}$https://github.com/Polly-Contrib/Polly.Contrib.CachePolicy}\\
+%		Resilience policy in C\#'s resilience4j library \hfill \\
+%\end{body}
+
+%\bigskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Education
+\header{教育}
+
+\begin{body}
+	\vspace{17pt}
+	\textbf{马里兰大学帕克分校} \hfill \emph{2019/02 - 2021/05} \\
+	科技创业硕士学位 \\
+  \smallskip
+	\textbf{约翰霍普金斯大学}{}\hfill \emph{2013/09 - 2015/05}{} \\
+	信息安全硕士学位 \hfill \\
+  \smallskip
+	\textbf{中国科学技术大学} \hfill \emph{2009/08 - 2013/07} \\
+	计算机工程学士学位 \\
+\end{body}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Skills
+%\header{Skills}
+
+%\begin{body}
+%	\vspace{17pt}
+%	
+%\begin{itemize} \itemsep -0.5pt
+%    \item {Organized 2018 Seattle Startup Weekend and 2018 Seattle Entrepreneur Club Pitch Day.}
+ %    \item {Owned private companies for investing in commercial office condos, apartments and retail centers.}
+%    \end{itemize}
+% \end{body}
+%\bigskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Skills
+%\header{Mooc}
+ 
+%\begin{body}
+%	\vspace{17pt}
+	
+%\begin{itemize} \itemsep -0.5pt
+%    \item {Pluralsight Path: .NET Developer on Microsoft Azure, Being a Technology Manager}
+%    \item {Udacity: Real-time Analytics with Apache Storm, Predicative Analytics for Business, Digital Marketing}
+%     \item {YCombinator: Startup School 2018}
+%    \end{itemize}
+% \end{body}
+% \bigskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Publications
+\bigskip
+
+\header{论文}
+
+\begin{body}
+	\vspace{18pt}	
+
+	\textbf{ A Novel Segmentation-based Video Denoising Method with Noise Level Estimation }
+     \begin{itemize} \itemsep -0pt
+	\item{\textbf{Shijie Zhang}, Yang Cao, et al. } \hfill \emph{MMM, 2013 (Oral) \& Invited to Information Sciences, 2014  }
+           \end{itemize}	
+
+	\textbf{ Underwater Stereo Image Enhancing Using a Physical Model }
+     \begin{itemize} \itemsep -0pt
+	\item{\textbf{Shijie Zhang}, Jing Zhang, et al. } \hfill \emph{ICIP, 2014 }
+           \end{itemize}	
+
+	\textbf{ Automatic Tag Saliency Ranking for Stereo Images}
+     \begin{itemize} \itemsep -0pt
+	\item{Yang Cao, Kai Kang, \textbf{Shijie Zhang}, et al. } \hfill \emph{Neurocomputing, 2015  }
+           \end{itemize}	
+
+\end{body}
+
+\end{CJK}
+
+\end{document}
